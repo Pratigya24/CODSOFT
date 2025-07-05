@@ -1,3 +1,4 @@
+This Project is a part of codsoft web development submission by Pratigya.
 # Calculator Web App
 
 This is a simple and interactive calculator built using **HTML**, **CSS**, and **JavaScript**.  
