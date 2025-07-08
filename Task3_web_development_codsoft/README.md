@@ -16,7 +16,7 @@ It performs basic arithmetic operations like addition, subtraction, multiplicati
 - JavaScript (Vanilla)
 
 ## 📸 Preview
-![Screenshot](screenshot.png) <!-- Optional if you want to add an image -->
+![Screenshot](screenshot3.png)
 
 ## 🚀 How to Use
 1. Clone the repository

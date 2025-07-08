@@ -7,7 +7,7 @@ I have designed and developed a clean, animated, and responsive **Landing Page**
 
 ## 📸 Preview
 
-![Landing Page Screenshot](screenshot.png) <!-- Add a screenshot if available -->
+![Landing Page Screenshot](screenshot1.png)
 
 ---
 
@@ -39,10 +39,10 @@ I have designed and developed a clean, animated, and responsive **Landing Page**
 
 ## 🙋‍♀️ About Me
 
-Hi! I'm **Pratigya Maurya**, a passionate web developer and CodSoft Intern 🚀  
+Hi! I'm **Pratigya**, a passionate web developer and CodSoft Intern 🚀  
 You can connect with me here:
 
-- 📧 Email: pratigya@example.com
+- 📧 Email: pratigyamaurya595@example.com
 - 🌐 GitHub: [@Pratigya24](https://github.com/Pratigya24)
 
 ---
