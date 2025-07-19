@@ -2,59 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pratigya | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Starbucks Coffee</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header class="main-header">
-    <nav class="navbar">
-      <h1 class="logo">Pratigya<span>.</span></h1>
-      <ul class="nav-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <!-- Header -->
+  <header>
+    <div class="logo">Starbucks</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section id="home" class="home-section">
-    <div class="home-content">
-      <h2>Hello, I'm <span>Pratigya</span></h2>
-      <p>Aspiring Web Developer & Tech Learner 💻</p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Freshly Brewed Coffee</h1>
+      <p>Wake up to the aroma of Starbucks. Explore your favorite flavors today!</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+    <div class="hero-img">
+      <img src="s1.png" alt="Starbucks Coffee" />
     </div>
   </section>
 
-  <section id="about" class="about-section">
-    <h2>About Me</h2>
-    <p>I’m a passionate coder exploring front-end development and creating beautiful web experiences. Currently interning at CodSoft.</p>
-  </section>
-
-  <section id="projects" class="projects-section">
-    <h2>Projects</h2>
-    <div class="project-cards">
-      <div class="card">
-        <h3>Landing Page</h3>
-        <p>A responsive landing page built using HTML and CSS. It was my first task during the CodSoft internship.</p>
+  <!-- Product Section -->
+  <section id="products" class="products">
+    <h2>Our Favorites</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="cold brew.png" alt="Cold Brew"/>
+        <h3>Cold Brew</h3>
+        <p>Bold, smooth and refreshing</p>
       </div>
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>This very site is a showcase of my skills and design sense — clean, simple, and original.</p>
+      <div class="product-card">
+        <img src="iced latte.png" alt="Iced Latte"/>
+        <h3>Iced Latte</h3>
+        <p>Cool and creamy espresso drink</p>
+      </div>
+      <div class="product-card">
+        <img src="frappuccino.png" alt="Frappuccino"/>
+        <h3>Frappuccino</h3>
+        <p>Blended beverage full of joy</p>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact-section">
-    <h2>Contact Me</h2>
-    <p>📧 pratigya@example.com</p>
-    <p>🌐 GitHub: <a href="https://github.com/Pratigya24" target="_blank">Pratigya24</a></p>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>Why Starbucks?</h2>
+    <p>At Starbucks, every cup is handcrafted with love, ensuring quality, sustainability, and satisfaction. Join us for a brew-tiful journey.</p>
   </section>
 
-  <footer class="footer">
-    <p>© 2025 Pratigya Maurya. All rights reserved.</p>
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <h2>Get Offers & Updates</h2>
+    <form>
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Starbucks Coffee. All rights reserved.</p>
   </footer>
 
 </body>
