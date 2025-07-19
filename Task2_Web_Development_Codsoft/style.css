@@ -146,11 +146,7 @@ footer {
   text-align: center;
   padding: 1rem;
 }
-/* ... Keep existing styles ... */
 
-/* HOVER EFFECTS ADDED BELOW */
-
-/* Navbar hover */
 nav a {
   color: white;
   text-decoration: none;
